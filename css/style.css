@@ -1647,37 +1647,37 @@ a#login-link {
 #hidden-art #thematic{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 0;
+	background:url('../img/images-sprite.jpg') 0px 0px;
 }
 #hidden-art #dramatics{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 623;
+	background:url('../img/images-sprite.jpg') 0px 623px;
 }
 #hidden-art #dance{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 1246;
+	background:url('../img/images-sprite.jpg') 0px 1246px;
 }
 #hidden-art #fine_arts{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 1869;
+	background:url('../img/images-sprite.jpg') 0px 1869px;
 }
 #hidden-art #general{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 2492;
+	background:url('../img/images-sprite.jpg') 0px 2492px;
 }
 #hidden-art #literary{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 3115;
+	background:url('../img/images-sprite.jpg') 0px 3115px;
 }
 #hidden-art #music{
 	height:623px;
 	width:576px;
-	background:url('../img/images-sprite.jpg') 0 3738;
+	background:url('../img/images-sprite.jpg') 0px 3738px;
 }
 /*
 #logout-button {
