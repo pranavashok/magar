@@ -1048,7 +1048,7 @@ a#login-link {
 	width: 200px;
 	margin-top: 10px;
 	padding: 0px 0 0 0px;
-	background: #ccc url("http://localhost/magar/css/../img/iconsprite.png") 0px -160px no-repeat;
+	background: #ccc url("../img/iconsprite.png") 0px -160px no-repeat;
 	outline: none;
 
 	padding: 1px 0px 0px 35px;
@@ -1062,12 +1062,12 @@ a#login-link {
 	
 }
 #signup-form-wrapper select.accommodationentry option:checked{
-	background: #ccc url("http://localhost/magar/css/../img/iconsprite.png") 0px -160px no-repeat;
+	background: #ccc url("../img/iconsprite.png") 0px -160px no-repeat;
 	color:black;
 
 }
 #signup-form-wrapper select.accommodationentry option #first{
-	background: transparent url("http://localhost/magar/css/../img/iconsprite.png") 0px -160px no-repeat;
+	background: transparent url("../img/iconsprite.png") 0px -160px no-repeat;
 	color:#a9a9a9;
 
 }
