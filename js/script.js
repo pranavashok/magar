@@ -103,7 +103,7 @@ function lookup(inputString) {
 				if (relativeUrl[relativeUrl.length - 1] == '/') relativeUrl = relativeUrl.substr(0, relativeUrl.length - 1);
 				setCssL('#font-pane');
 				setCssR('#mainmenu-pane');
-				if (relativeUrl.split('/')[0] == 'Events') { //Events section
+				if (relativeUrl.split('/')[1] == 'Events') { //Events section
 					$('.pane').hide();
 					$('#inner-pane-events').show();
 					$('#content-wrapper-events').fadeOut();
@@ -161,7 +161,7 @@ function lookup(inputString) {
 							}
 						});
 						//Load menu
-						title = relativeUrl.split('/')[0];
+						title = relativeUrl.split('/')[1];
 						category = relativeUrl.split('/')[1].replace(/_/g, ' ');
 						if (n.length > 2)
 							subcategory = relativeUrl.split('/')[2].replace(/_/g, ' ');
@@ -205,7 +205,7 @@ function lookup(inputString) {
 						});
 					}
 				} //Endif events
-				else if (relativeUrl.split('/')[0] == 'Workshops') {
+				else if (relativeUrl.split('/')[1] == 'Workshops') {
 					//Workshops code comes here
 					loadingAnimation(false);
 					$('.pane').hide();
@@ -229,7 +229,7 @@ function lookup(inputString) {
 					}*/
 
 				} //Endif workshops
-				else if (relativeUrl.split('/')[0] == 'Proshows') {
+				else if (relativeUrl.split('/')[1] == 'Proshows') {
 					//Proshows code
 					$('.pane').hide();
 					$('#inner-pane-proshows').show();
@@ -248,7 +248,7 @@ function lookup(inputString) {
 					}
 				} //Endif proshows
 
-				else if (relativeUrl.split('/')[0] == 'Showcase') {
+				else if (relativeUrl.split('/')[1] == 'Showcase') {
 					//Showcase code
 					$('.pane').hide();
 					$('#inner-pane-showcase').show();
@@ -302,7 +302,7 @@ function lookup(inputString) {
 						});
 					}
 				} //Endif showcase
-				else if (relativeUrl.split('/')[0] == 'Sponsors') {
+				else if (relativeUrl.split('/')[1] == 'Sponsors') {
 					//Sponsors code
 					$('.pane').hide();
 					$('#inner-pane-sponsors').show();
