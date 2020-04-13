@@ -1648,36 +1648,43 @@ a#login-link {
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 0px;
+	display: inline-block;
 }
 #hidden-art #dramatics{
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 623px;
+	display: inline-block;
 }
 #hidden-art #dance{
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 1246px;
+	display: inline-block;
 }
 #hidden-art #fine_arts{
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 1869px;
+	display: inline-block;
 }
 #hidden-art #general{
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 2492px;
+	display: inline-block;
 }
 #hidden-art #literary{
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 3115px;
+	display: inline-block;
 }
 #hidden-art #music{
 	height:623px;
 	width:576px;
 	background:url('../img/images-sprite.jpg') 0px 3738px;
+	display: inline-block;
 }
 /*
 #logout-button {

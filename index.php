@@ -568,13 +568,13 @@ require_once('root.php'); ?>
 	<div id="hidden-subsubmenu-links">
 	</div>
 	<div id="hidden-art">
-		<img id='general' />
-		<img id='fine_arts' />
-		<img id='music' />
-		<img id='dance' />
-		<img id='literary' />
-		<img id='dramatics' />
-		<img id='thematic' />
+		<div id='general' />
+		<div id='fine_arts' />
+		<div id='music' />
+		<div id='dance' />
+		<div id='literary' />
+		<div id='dramatics' />
+		<div id='thematic' />
 	</div>
 	<div id="hidden-info">
 		<div id="hidden-name"><?php 
