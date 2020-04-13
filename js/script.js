@@ -458,7 +458,8 @@ function lookup(inputString) {
 				tmp = tmp.replace(' ', '_');
 
 				$('#painting-events').hide();
-				$('#painting-events').css('background', $('div#'+ tmp).css('background'));
+				$('#painting-events').css('background-image', $('div#'+ tmp).css('background-image'));
+				$('#painting-events').css('background-position', $('div#'+ tmp).css('background-position'));
 				$('#painting-events').css('background-repeat', 'no-repeat repeat');
 				if ($('#inner-pane-events').attr('class') != 'moveright')
 					$('#painting-events').stop(true, true).fadeIn(250);
