@@ -4,7 +4,7 @@ var fadeSpd = 200;
 var menu;
 var collegeList = "NIT, Calicut:Acquinas College, Edacochin:Adhiyamaan College Of Engineering, Hosur:Adi Sankara Institute of Engg. & Tech., Kalady:Al-Ameen College of Engineering, Pattambi:Al-ameen College, Edathala:All Saints College, Trivandrum:Alphonsa College, Pala:Amal Jyothi Engineering College, Kanjirapally:Amala Institute of Medical Sciences, Thrissur:Amrita Vishwa Vidyapeetham, Coimbatore.:Amrita Vishwa Vidyapeetham, Kollam:Annoor Dental College, Puthupaddy P.O, Ernakulam:Ansar Arabic College, Valavannur:Anvarul Islam Arabic College, Kuniel Areacode, Malappuram:Anvarul Islam Women Arabic College, Mongam, Malappuram:Assumption College, Changancherry:Avinashilingam University for Women, Coimbatore:AWH Engineering College, Kuttikatoor, Kozhikkode:B.A.M.College, Thuruthicaud:B.K.College for Women, Kottayam:Baselios Mathew II College of Engg., Sasthamcotta:Baselius College, Kottayam:Baselius Poulose II Catholicate College, Piravam:Bharatha matha College, Thrikkakara:Bishop Choolaparambil Memorial College, Kottayam:Bishop Moore College, Mavelikkara:C. K .Govindan Nair Memorial Government College, Perambra:CMS College, Kottayam:Calicut Medical College:Calicut University Institute of Engg. and Tech, Kohinoor:Canara Engineering College, Mangalore:Carmel College, Mala:Carmel Engineering College, Koonamkara, Ranni:Catholicate College, Pathanamthitta:Chembai Memorial Music College, Palakkad:Christ College, Bangalore:Christ College, Irinjalakuda:Christian College, Kattakada:Christian College, Chengannur:Cochin College, Cochin:Cochin University Of Science And Technology:College of Applied Science Pattuvam:College of Dairy Science and Technology, Mannuthy:College of Engineering Eranjoli P.O, Thalassery, Kannur:College of Engineering Kidangoor, Kidangoor South:College of Engineering Perumon, Perinad:College of Engineering Thiruvananthapuram:College of Engineering Trikaripur, Cheemeni:College of Engineering, Adoor:College of Engineering, Attingal, Thiruvananthapuram:College of Engineering, Chengannur P.O, Alappuzha:College of Engineering, County Hills Munnar:College of Engineering, Kallooppara, Kadamankulam:College of Engineering, Karunagapally, Pada.North:College of Engineering, Pallippuram:College of Engineering, Thekkekara P.O, Poonjar:College of Engineering, Thrikkannamangal, Kottarakara:College of Teacher Education Kozhikode:College of Teacher Education, Thalasserry:College of Teacher Education, Thiruvananthapuram:Co-Operative Arts and Science College, Madayi:Co-operative Institute of Technology, Mandarathur:Co-operative Medical College, Cochin:D. B. College, Thalayolaparambu:Darul Aloom Arabic College, Paral, Thalassery:Darul Irshad Arabic College, Paral, Kannur:Darunnajith Arabic College, Karuvarakundu:Devamatha College. Kuravilangad:Devaswom Board College, Parumala, Pamba:Devaswom Board College, Sasthamcotta Kollam:Don Bosco College, Kannur:Don Bosco College, Trichur:Dr. Somervell Memorial CSI Medical College, Karakonam:EMEA College, Kondotty:ER&DCI-Institute of Technology, Trivandrum:Farook College, Farook:Farook Training College, Farook:Fathima Matha National College, Kollam:Federal Institute of Science & Tech., Mookkannoor:Fr. Muller Medical College, Mangalore:Goverment Dental College, Thiruvananthapuram:Government College of Engineering Mangattuparamba:Government Dental College, Kottayam:Government Dental College, Kozhikode:Government Engineering College Kozhikode, West Hill:Government Engineering College Painavu, Idukki:Government Engineering College Palakkad, Sreekrishnapuram:Government Engineering College Thrissur, R V Puram:Government Engineering College Wayanad, Nalloornad:Government Engineering College, Barton Hill:Government Rajiv Gandhi Institute of Technology, Vellore:Government Sanskrit College, Pattambi:Government Victoria College, Palakkad:Govt. Arts & Science College, Calicut:Govt. Brennen College, Thalassery:Govt. College for Women, Trivandrum:Govt. College, Kariavattom, Trivandrum:Govt. Homoeopathic Medical College, Calicut:Govt. Law College, Kozhikode:Govt. Medical College, Alappuzha:Govt. Medical College, Kottayam:Govt. Medical College, Kozhikode:Govt. Medical College, Thiruvananthapuram:Govt. Medical College, Thrissur:Govt. Sanskrit College, Trivandrum:Govt. Arts College, Trivandrum:HCET, Thiruvananthapuram:Henry Baker College, Melukavu:I E S College of Engineering, Thrissur:IHRD, Calicut:IIM, Kozhikode:IIT, Madras:Ilahia College of Engineering & Tech., Mulavoor:Indira Gandhi National Open University, New Delhi:Institute of Advanced Study in Education, Thrissur:Institute of Chartered Accountants of India:Iqbal College, Peringamala:Jeppiaar Engineering College, Chennai:JDT Arts and Science College, Calicut:JNTU, Kakinada:Jubilee Mission Medical College & Research Centre, Thrissur:Jyothi Engineering College, Cheruthuruthy:K E College, Mannanam:K M E A Engineering College, Alwaye:KLN College of Engineering:Kannur Medical College, Anjarakkandy:Karmala Rani Training College, Kollam:Karuna Medical College, Palakkad.:Kelappaji College of Agricultural Engineering and Technology:Keyi Sahib Training College Taliparamba:KKTM Govt College, Pullut:KMCT College of Engineering, Kozhikode:KMCT Medical College, Kozhikode:Krishna Menon Memorial Govt. Women's College, Kannur:Krupanidhi Business School, Bangalore:Kuriakose Gregrios College, Pampady, Kottayam:LBS College of Engineering, Kasaragod, Povval, Muliyar:LBS Institute of Technology for Women, Poojapura:Little Flower College Guruvayoor:Lourdes Matha College of Science & Tech., Kuttichal:Loyola College of Social Sciences, Trivandrum:M E A Engineering College, Chemmaniyod, Malappuram:M E S College of Engineering, Kuttippuram:M G College of Engineering, Thiruvallom:M G College, Thiruvananthapuram:M G College, Iritty:M S Ramiah Institute of Technology, Bangalore:Maamallan Institute of Technology:Madeerathul Uloom Arabic College, Pulikkal, Malappuram:Madurai Kamaraj University, Madurai:Maharajas College, Ernakulam:Mahatma Gandhi University College of Engineering, Muttom:Malabar Christian College:Malabar Christian College, Kozhikode:Mangalam College of Engineering, Ettumanoor:Mannam Memorial NSS College, Kottiyam, Kollam:Mannaniya College of Arts & Science, Pangode:Mar Athanasius College of Engineering, Kothamangalam:Mar Baselios Christian College of Engg. & Tech., Peermede:Mar Baselios College of Engineering & Tech., Nalanchira:Mar Baselios Dental College, Kothamangalam:Mar Dianysius College, Pazhanji:Mar Ivanios College, Thiruvananthapuram:Mar Thoma College for Women, Perumbavoor:Mar Thoma College, Chungathara:Marian College, Peerumade:Marian Engineering College, Kazhakuttom:Markaz College of Arts and Science, Kozhikode:Martheophilus Training College, Bathanihills:Marthoma College, Thiruvalla:Mary Matha Arts and Science College, Mananthavady:Mary Matha College of Engineering, Olathanni:Matha College of Technology, Manakappadi:MEA Sullamussalam Science College, Areacode, Malappuram:Mercy College, Palakkad:MES Asmabi College, Vemballur:MES College, Ponnani:MES KVM College, Valancherry:MES Mampad College, Mampad:MES Medical College, Perinthalmanna:MGM College:Miladi sherif Memorial College, Kayamkulam:Model Engineering College, B.M.C Post, Thrikkaara:Mohandas College of Engg. & Tech., Nedumangad:Morning Star Home Science College, Angamaly:MOSC Medical College, Kolenchery:Mount Carmel Training College, Kottayam:Mount Tabour Training College, Pathanapuram:Mount Zion College of Engg., Pathanamthitta:Muhammed Adburahiman Memorial Orphange College, Mannassery:Musaliar College of Engineering & Tech., Kumpazha:Muslim Association College of Engineering, Venjaramoodu:Muslim Education Society Kalladi College, Mannarghat:Muslim Educational Society College, Marampally:Muslim Educational Society College, Nedumkandam:National University of Advanced Legal Studies, Kochi:NSS College of Engineering, Palakkad:Nangelil Ayurveda Medical College, Ernakulam:Nasarathul Islam Arabic College, Kadavanthara:Nehru Arts and Science College, Kanhangad:Nehru College of Engg. & Research Centre, Thiruvillwamala:Newman College , Thodupuzha:Nirmala College, Muvattupuzha:Nirmalagiri College, Koothuparambu:NIFT, Kannur:NIFT, Chennai:NIT, Surathkal:NIT, Trichy:NIT, Warangal:NMAMIT, Karnataka:Noorul Islam College of Dental Science, Trivandrum:NSS College for Women, Thiruvananthapuram:NSS College of Engineering, Palakkad:NSS College, Cherthala:NSS College, Manjeri:NSS College, Nemmara:NSS College, Nilamel. Kollam:NSS College, Ottapalam:NSS College, Pandalam:NSS College, Rajakumari:NSS Hindu College, Changanacherry:NSS Training College, Changanacherry:NSS Training College, Ottapalam:NSS Training College, Pandalam:Oriental College of Teacher Education, Kozhikode:P A Aziz College of Engineering & Technology, Karakulam:P.K.M.College of Education:P.T.M Govt. College, Perinthalmanna:Pariyaram Medical College, Kannur:Pavanatma College, Murickassery:Payyannur College, Payyannur:Pazhassi raja NSS College, Mattannur:Pazhassiraja College, Pulpally:Peet Memorial Training College, Mavelikkara:Physical Education College East Hill, Kozhikode:Prajyothi Nikethan College, Puthukkad, Thrissur:Providence Women`s College, Kozhikode:PSG College Of Arts & Science, Coimbatore:PSG College of Technology, Coimbatore:PSMO College, Thirurangadi:PSN College Of Engineering And Technology, Tirunelveli:Pushpagiri College of Dental Sciences, Thiruvalla:R K M Vivekananda College, Chennai:Rajagiri College of Social Science, Kalamassery:Rajagiri School of Engg. & Tech., Kakkanad:Rajalakshmi Engineering College, Chennai:Rajiv Gandhi Institute of Technology, Kottayam:Ronsathal Uloom Arabic College, Farook:Royal College of Engineering & Technology, Akkikkavu:Royal Dental College, Palakkad:Saranathan College of Engineering, Trichy:SRM University, Kattankulathur:S. E. S. College, Sreekandapuram:S. N. College for Women, Kollam:S. N. College, Alathur:S. N. College, Chathannoor, Kollam:S. N. College, Chempazhanthy:S. N. College, Chengannur:S. N. College, Cherthala:S. N. College, Nattika:S. N. College, Punalur, Kollam:S. N. College, Sivagiri, Varkala:S. N. College, Thottada, Kannur:S. N. Guru College, Chelannur:S. N. Training College, Nedumganda:S. N. College, Kollam:SNM College, Maliankara:Sacred Heart College, Chalakudy:Sacred Heart College, Thevara:SAE College, Chennai:Sahodaran Ayyappan Smaraka Yogam College, Konni:Sahrdaya College of Engineering & Technology., Kodakara:Saintgits College of Engineering, Pathamuttom:Sanatana Dharma College, Alappuzha:Sarabhai Institute of Science & Technology, Kattakada:School of Management Studies, CUSAT:SCMS School of Engg. & Tech., Ernakulam:Shahul Hameed Memorial Engineering College, Kadakkal:Sir Syed College, Thaliparamba:Sir Syed Institute For Technical Studies, Thaliparamba:SMU Manipal:SNS College of Engineering, Coimbatore:SNS College of Technology, Coimbatore:Sree Buddha College of Engineering, Pattoor:Sree Chitra Thirunal College of Engineering, Pappanamcode:Sree Gokulam Medical College & Research Foundation, Trivandrum:Sree Kerala Varma College, Thrissur:Sree Krishna College, Thrissur:Sree Narayana Guru College of Engineering & Technology, Payyannur:Sree Narayana Gurukulam College of Engineering, Kadayiruppu:Sree Narayana Mangalam Inst. of Mgmt. & Tech., Maliankara:Sree Narayana Mangalam Training College, Moothakunnam:Sree Narayana Trust College, Shoranur:Sree Sankara College, Kalady:Sree Swathi Thirunal College of Music Thiruvananthapuram:Sree Vivekananda College, Kizhoor:Sree Vyasa NSS College, wadakkancherry:Sri Venkateswara College of Engineering, Chennai:Sri. Ayyappa Devaswom Board College, Eramalikaraa:Sri. Sankara Dental College, Varkala.:Sri. Vidyadiraja NSS College, Vazhoor:Srinivas Institute of Management Studies, Mangalore:SSV. College, Perumbavoor:St. Aloysius College, Edathua:St. Berchmans College, Changanacherry:St. Cyrils College, Adoor:St. Dominic College, Kanjirappally:St. George College, Aruvithura:St. Gregorios College, Kottarakara:St. Gregorios Dental College, Kothamangalam:St. Johns College Anchal:St. Joseph College of Communication, Changanassery:St. Joseph College for Women, Alappuzha:St. Joseph Training College for Women, Ernakulam:St. Joseph Training College, Mannanam, Kottayam:St. Joseph`s College of Engg. & Technology, Palai:St. Josephs College, Devagiri:St. Josephs College, Irinjalakuda:St. Josephs College, Moolamattom:St. Mary`s College, Sulthan bathery:St. Michaels College, Cherthala:St. Stephen College, Pathanapuram:St. Stephens College, Uzhavoor:St. Theresas College, Ernakulam:St. Thomas College, Kozhencherry:St. Thomas College, Ranni:St. Thomas Training College, Palai:St. Xaviers College for Women, Aluva:St. Xaviers College, Kothavara, Vaikom:St. Xaviers College, Thiruvananthapuram:St. Alberts College, Ernakulam:St. Aloysius College, Elthuruthu:St. Marys College, Manarcadu:St. Marys College, Thrissur:St. Peters College, Kolencherry:St. Pius College, Rajapuram:St. Thoma College, Thrissur:St. Thomas College, Pala:Sullamussalam Arabic College, Areacode:Sunnivva Arabic College, Chennamangallur:SUT Medical College, Trivandrum:T. K. M Institute of Technology, Ezhukone:T.K.Madhavan Memorial College, Nangiarkulangara:Thangal Kunju Memorial Arts and science College, Kollam:Titus II Teachers Colleges Thiruvalla:TKM College of Engineering, TKM College Post, Kollam:Toc H Institute of Science & Technology, Mulamthurutthy:Travancore Engineering College, Aayoor:Union Christian College, Aluva:Unity women`s College, Manjeri:University College of Engineering, Kariavattom, :University College, Thiruvananthapuram:Veda Vyasa Institute of Technology, Ponnempadam:Vidya Academy of Science & Technology, Thrissur:Vidyodaya Pre University College, Udupi:Vimal Jyothi Engineering College, Chemperi:Vimala College, Thrissur:Viswajyothi College of Engineering & Technology, Vazhakkulam:VTB College, Mannampatta:VTM NSS College, Dhanuvachapuram:W. M. O. Arts and Science College, Muttil:Younus College of Engineering & Technology, Kollam:Zamorins Guruvayurappan College, Kozhikode:Other";
 var evcode = '';
-var gallery = '<div class="pe-container"><ul id="pe-thumbs" class="pe-thumbs"><li><a href="#"><img src="/' + subDir + '/img/thumbs/1.jpg" /><div class="pe-description"><h3>Music</h3><p>Dedicated, for its alluring elegance </p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/2.jpg" /><div class="pe-description"><h3>Ingress</h3><p>Even the wonderland needed an entrance, and here it is!!</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/3.jpg" /><div class="pe-description"><h3>Careen</h3><p>Whiles both his youth and virtue did intend</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/4.jpg" /><div class="pe-description"><h3>Brilliance</h3><p>He made it possible, its not a virtue, but an achievement</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/5.jpg" /><div class="pe-description"><h3>Determination</h3><p>Who has won the battles without a lifetime spoiled in coliseum</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/6.jpg" /><div class="pe-description"><h3>Fashion</h3><p>Get lost in the show of elegance</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/7.jpg" /><div class="pe-description"><h3>life was graced</h3><p>But his own worth, wherein his life was graced</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/8.jpg" /><div class="pe-description"><h3>the same</h3><p>Sith as that ever he maintained the same?</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/9.jpg" /><div class="pe-description"><h3>oblivion</h3><p>Oblivion in the darkest day to come</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/10.jpg" /><div class="pe-description"><h3>sin shall tread</h3><p>When sin shall tread on merit in the dust</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/11.jpg" /><div class="pe-description"><h3>lamentable tomb</h3><p>Cannot rase out the lamentable tomb</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/12.jpg" /><div class="pe-description"><h3>short-lived deserts</h3><p>Of his short-lived deserts; but still they must</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/13.jpg" /><div class="pe-description"><h3>hearts and memories</h3><p>Even in the hearts and memories of men</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/14.jpg" /><div class="pe-description"><h3>respect</h3><p>Claim fit respect, that they, in every limb</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/15.jpg" /><div class="pe-description"><h3>comfort</h3><p>Remembering what he was, with comfort then</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/16.jpg" /><div class="pe-description"><h3>pattern</h3><p>May pattern out one truly good, by him</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/17.jpg" /><div class="pe-description"><h3>truly good</h3><p>For he was truly good, if honest care</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/18.jpg" /><div class="pe-description"><h3>harmless conversation</h3><p>Of harmless conversation may commend</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/19.jpg" /><div class="pe-description"><h3>recompensed</h3><p>Ill recompensed only in his end</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/20.jpg" /><div class="pe-description"><h3>tongue</h3><p>Nor can the tongue of him who loved him least</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/21.jpg" /><div class="pe-description"><h3>superlative</h3><p>To one superlative above the rest</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/22.jpg" /><div class="pe-description"><h3>steady faith</h3><p>Of many men in steady faith reprove</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/23.jpg" /><div class="pe-description"><h3>constant temper</h3><p>His constant temper, in the equal weight</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/24.jpg" /><div class="pe-description"><h3>thankfulness</h3><p>Of thankfulness and kindness: Truth doth leave</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/25.jpg" /><div class="pe-description"><h3>proof</h3><p>Sufficient proof, he was in every right</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/26.jpg" /><div class="pe-description"><h3>thankful</h3><p>As kind to give, as thankful to receive.</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/27.jpg" /><div class="pe-description"><h3>curious eye</h3><p>The curious eye of a quick-brained survey</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/28.jpg" /><div class="pe-description"><h3>scantly find</h3><p>Could scantly find a mote amidst the sun</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/29.jpg" /><div class="pe-description"><h3>too-shortened days</h3><p>Of his too-shortened days, or make a prey</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/30.jpg" /><div class="pe-description"><h3>faulty errors</h3><p>Of any faulty errors he had done</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/31.jpg" /><div class="pe-description"><h3>spleenful sense</h3><p>Not that he was above the spleenful sense</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/32.jpg" /><div class="pe-description"><h3>spite of malice</h3><p>And spite of malice, but for that he had</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/33.jpg" /><div class="pe-description"><h3>innocence</h3><p>Warrant enough in his own innocence</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/34.jpg" /><div class="pe-description"><h3>nature</h3><p>Against the sting of some in nature bad</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/35.jpg" /><div class="pe-description"><h3>absolutely blest</h3><p>Yet who is he so absolutely blest</p></div></a></li><li><a href="#"><img src="/' + subDir + '/img/thumbs/36.jpg" /><div class="pe-description"><h3>mortal frame</h3><p>That lives encompassed in a mortal frame</p></div></a></li></ul></div>';
+var gallery = '<div class="pe-container"><ul id="pe-thumbs" class="pe-thumbs"><li><a href="#"><img src="' + subDir + 'img/thumbs/1.jpg" /><div class="pe-description"><h3>Music</h3><p>Dedicated, for its alluring elegance </p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/2.jpg" /><div class="pe-description"><h3>Ingress</h3><p>Even the wonderland needed an entrance, and here it is!!</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/3.jpg" /><div class="pe-description"><h3>Careen</h3><p>Whiles both his youth and virtue did intend</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/4.jpg" /><div class="pe-description"><h3>Brilliance</h3><p>He made it possible, its not a virtue, but an achievement</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/5.jpg" /><div class="pe-description"><h3>Determination</h3><p>Who has won the battles without a lifetime spoiled in coliseum</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/6.jpg" /><div class="pe-description"><h3>Fashion</h3><p>Get lost in the show of elegance</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/7.jpg" /><div class="pe-description"><h3>life was graced</h3><p>But his own worth, wherein his life was graced</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/8.jpg" /><div class="pe-description"><h3>the same</h3><p>Sith as that ever he maintained the same?</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/9.jpg" /><div class="pe-description"><h3>oblivion</h3><p>Oblivion in the darkest day to come</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/10.jpg" /><div class="pe-description"><h3>sin shall tread</h3><p>When sin shall tread on merit in the dust</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/11.jpg" /><div class="pe-description"><h3>lamentable tomb</h3><p>Cannot rase out the lamentable tomb</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/12.jpg" /><div class="pe-description"><h3>short-lived deserts</h3><p>Of his short-lived deserts; but still they must</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/13.jpg" /><div class="pe-description"><h3>hearts and memories</h3><p>Even in the hearts and memories of men</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/14.jpg" /><div class="pe-description"><h3>respect</h3><p>Claim fit respect, that they, in every limb</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/15.jpg" /><div class="pe-description"><h3>comfort</h3><p>Remembering what he was, with comfort then</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/16.jpg" /><div class="pe-description"><h3>pattern</h3><p>May pattern out one truly good, by him</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/17.jpg" /><div class="pe-description"><h3>truly good</h3><p>For he was truly good, if honest care</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/18.jpg" /><div class="pe-description"><h3>harmless conversation</h3><p>Of harmless conversation may commend</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/19.jpg" /><div class="pe-description"><h3>recompensed</h3><p>Ill recompensed only in his end</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/20.jpg" /><div class="pe-description"><h3>tongue</h3><p>Nor can the tongue of him who loved him least</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/21.jpg" /><div class="pe-description"><h3>superlative</h3><p>To one superlative above the rest</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/22.jpg" /><div class="pe-description"><h3>steady faith</h3><p>Of many men in steady faith reprove</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/23.jpg" /><div class="pe-description"><h3>constant temper</h3><p>His constant temper, in the equal weight</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/24.jpg" /><div class="pe-description"><h3>thankfulness</h3><p>Of thankfulness and kindness: Truth doth leave</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/25.jpg" /><div class="pe-description"><h3>proof</h3><p>Sufficient proof, he was in every right</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/26.jpg" /><div class="pe-description"><h3>thankful</h3><p>As kind to give, as thankful to receive.</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/27.jpg" /><div class="pe-description"><h3>curious eye</h3><p>The curious eye of a quick-brained survey</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/28.jpg" /><div class="pe-description"><h3>scantly find</h3><p>Could scantly find a mote amidst the sun</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/29.jpg" /><div class="pe-description"><h3>too-shortened days</h3><p>Of his too-shortened days, or make a prey</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/30.jpg" /><div class="pe-description"><h3>faulty errors</h3><p>Of any faulty errors he had done</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/31.jpg" /><div class="pe-description"><h3>spleenful sense</h3><p>Not that he was above the spleenful sense</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/32.jpg" /><div class="pe-description"><h3>spite of malice</h3><p>And spite of malice, but for that he had</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/33.jpg" /><div class="pe-description"><h3>innocence</h3><p>Warrant enough in his own innocence</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/34.jpg" /><div class="pe-description"><h3>nature</h3><p>Against the sting of some in nature bad</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/35.jpg" /><div class="pe-description"><h3>absolutely blest</h3><p>Yet who is he so absolutely blest</p></div></a></li><li><a href="#"><img src="' + subDir + 'img/thumbs/36.jpg" /><div class="pe-description"><h3>mortal frame</h3><p>That lives encompassed in a mortal frame</p></div></a></li></ul></div>';
 function setCssR(a) {
 	vright = $(a).css('right');
 	vtop = $(a).css('top');
@@ -48,7 +48,7 @@ function lookup(inputString) {
 		else {
 			$('#suggestions').fadeIn(); // Show the suggestions box
 			$('#s-loader').show();
-			$.post('/' + subDir + '/search.php', {q: ''+ inputString + ''}, function(data) { // Do an AJAX call
+			$.post(subDir + 'search.php', {q: ''+ inputString + ''}, function(data) { // Do an AJAX call
 				$('#suggestions').html(data); // Fill the suggestions box
 				$('#s-loader').hide();
       			});
@@ -73,7 +73,7 @@ function lookup(inputString) {
 				if (event.which == 27) $('#shortcut').hide();
 				if (event.which >= 37 && event.which <= 40) { //If direction keys press
 					if (flag == 0) {
-						$.getScript('/' + subDir + '/js/shortcut.js', function() {
+						$.getScript(subDir + 'js/shortcut.js', function() {
 	  						$('#shortcut').show();
 	  						flag = 1;
 	  					});
@@ -86,7 +86,7 @@ function lookup(inputString) {
 		History.Adapter.bind(window, 'statechange', function() { // Note: We are using statechange instead of popstate
 			var State = History.getState(), // Note: We are using History.getState() instead of event.state
 				rootUrl = History.getRootUrl(),
-				relativeUrl = State.url.replace(rootUrl + subDir + '/', '');
+				relativeUrl = State.url.replace(rootUrl + subDir, '');
 			//History.log(State.data, State.title, State.url);
 			if (relativeUrl == '') {
 				if ($('#mainmenu-pane').attr('class') == 'moveout') {
@@ -119,7 +119,7 @@ function lookup(inputString) {
 						title = relativeUrl;
 						$.ajax({
 							dataType: 'json',
-							url: '/' + subDir + '/manager/fetchlinks.php',
+							url: subDir + 'manager/fetchlinks.php',
 							data: {
 								'cat': title
 							},
@@ -128,7 +128,7 @@ function lookup(inputString) {
 								setMenu(d);
 								var catlinks = '';
 								d.forEach(function(ele) {
-									catlinks = catlinks + "<a href='/" + subDir + '/' + title + '/' + ele.name.replace(/\ /g, '_') + "'><li>" + ele.name + '</li></a>';
+									catlinks = catlinks + "<a href='" + subDir + title + '/' + ele.name.replace(/\ /g, '_') + "'><li>" + ele.name + '</li></a>';
 								});
 								$('#submenu-links-events').html(catlinks);
 								loadingAnimation(false);
@@ -141,7 +141,7 @@ function lookup(inputString) {
 						eve = relativeUrl.split('/')[n.length - 1];
 						$.ajax({
 							dataType: 'json',
-							url: '/' + subDir + '/manager/content.php',
+							url: subDir + 'manager/content.php',
 							data: {
 								'event': eve
 							},
@@ -167,7 +167,7 @@ function lookup(inputString) {
 							subcategory = relativeUrl.split('/')[2].replace(/_/g, ' ');
 						$.ajax({
 							dataType: 'json',
-							url: '/' + subDir + '/manager/fetchlinks.php',
+							url: subDir + 'manager/fetchlinks.php',
 							data: {
 								'cat': title
 							},
@@ -177,9 +177,9 @@ function lookup(inputString) {
 								var catlinks = '';
 								d.forEach(function(ele) {
 									if (ele.name == category)
-										catlinks = catlinks + "<a href='/" + subDir + '/' + title + '/' + ele.name.replace(/\ /g, '_') + "' class='selected'><li>" + ele.name + '</li></a>';
+										catlinks = catlinks + "<a href='" + subDir + title + '/' + ele.name.replace(/\ /g, '_') + "' class='selected'><li>" + ele.name + '</li></a>';
 									else
-										catlinks = catlinks + "<a href='/" + subDir + '/' + title + '/' + ele.name.replace(/\ /g, '_') + "' class='notselected'><li>" + ele.name + '</li></a>';
+										catlinks = catlinks + "<a href='" + subDir + title + '/' + ele.name.replace(/\ /g, '_') + "' class='notselected'><li>" + ele.name + '</li></a>';
 								});
 								sublinks = '';
 								if (n.length > 2)
@@ -188,9 +188,9 @@ function lookup(inputString) {
 										if (menu[ele].name == category) {
 											for (s in menu[ele]['sublinks']) {
 												if (menu[ele]['sublinks'][s].name == subcategory)
-													sublinks = sublinks + "<li><a href='/" + subDir + '/' + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "' class='selected'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
+													sublinks = sublinks + "<li><a href='" + subDir + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "' class='selected'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
 												else
-													sublinks = sublinks + "<li><a href='/" + subDir + '/' + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "' class='notselected'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
+													sublinks = sublinks + "<li><a href='" + subDir + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "' class='notselected'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
 											}
 											break;
 										}
@@ -261,7 +261,7 @@ function lookup(inputString) {
 						title = relativeUrl;
 						$.ajax({
 							dataType: 'json',
-							url: '/' + subDir + '/manager/fetchlinks.php',
+							url: subDir + 'manager/fetchlinks.php',
 							data: {
 								'cat': title
 							},
@@ -270,7 +270,7 @@ function lookup(inputString) {
 								setMenu(d);
 								var links = '';
 								d.forEach(function(ele) {
-									links = links + "<a href='/" + subDir + '/' + title + '/' + ele.name.replace(/\ /g, '_') + "'><li>" + ele.name + '</li></a>';
+									links = links + "<a href='" + subDir + title + '/' + ele.name.replace(/\ /g, '_') + "'><li>" + ele.name + '</li></a>';
 								});
 								$('#submenu-links-showcase').html(links);
 								loadingAnimation(false);
@@ -284,7 +284,7 @@ function lookup(inputString) {
 						eve = relativeUrl.split('/')[n.length - 1];
 						$.ajax({
 							dataType: 'json',
-							url: '/' + subDir + '/manager/content.php',
+							url: subDir + 'manager/content.php',
 							data: {
 								'event': eve
 							},
@@ -428,7 +428,7 @@ function lookup(inputString) {
 			$('#notfound').fadeOut();
 			History.pushState({
 				timestamp: (new Date().getTime())
-			}, 'Ragam 2013 | National Institute of Technology Calicut', '/' + subDir + '/');
+			}, 'Ragam 2013 | National Institute of Technology Calicut', subDir);
 			$('#wrapper').removeAttr('class', 'blur');
 		});
 		$('#mainlinks li').click(function() {
@@ -448,7 +448,7 @@ function lookup(inputString) {
 				for (ele in menu) {
 					if (menu[ele].name == $(this).text()) {
 						for (s in menu[ele]['sublinks']) {
-							sublinks = sublinks + "<li><a href='/" + subDir + '/' + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
+							sublinks = sublinks + "<li><a href='" + subDir + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
 						}
 						break;
 					}
@@ -525,7 +525,7 @@ function lookup(inputString) {
 				for (ele in menu) {
 					if (menu[ele].name == $(this).text()) {
 						for (s in menu[ele]['sublinks']) {
-							sublinks = sublinks + "<li><a href='/" + subDir + '/' + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
+							sublinks = sublinks + "<li><a href='" + subDir + title + '/' + menu[ele].name.replace(/\ /g, '_') + '/' + menu[ele]['sublinks'][s].name.replace(/\ /g, '_') + "'>" + menu[ele]['sublinks'][s].name + "<br/><span class='shortdesc'>" + menu[ele]['sublinks'][s].shortdesc + '</span></a></li>';
 						}
 						break;
 					}
@@ -565,7 +565,7 @@ function lookup(inputString) {
 		$('#home-button').click(function() {
 			History.pushState({
 				timestamp: (new Date().getTime())
-			}, 'Ragam 2013 | National Institute of Technology Calicut', '/' + subDir + '/');
+			}, 'Ragam 2013 | National Institute of Technology Calicut', subDir);
 			$('#font-pane').show();
 			$('#mainmenu-pane').show();
 			//$("#support-pane").fadeIn();
@@ -574,15 +574,15 @@ function lookup(inputString) {
 
 		$('a#signin-link').click(function() {
 			if ($('#signin-link').attr('class') == 'cancel') {
-				$(this).html('<img src="/' + subDir + '/img/signup.png" />');
+				$(this).html('<img src="' + subDir + 'img/signup.png" />');
 				$('#signin-link').attr('class', 'enabled');
 				$('#dark').attr('class', 'overlayoff');
 				$('#signup-form-wrapper').hide();
 			} else {
-				$(this).html('<img src="/' + subDir + '/img/cancel.png" />');
+				$(this).html('<img src="' + subDir + 'img/cancel.png" />');
 				$('a#signin-link').attr('class', 'cancel');
 				$('a#login-link').attr('class', 'enabled');
-				$('a#login-link').html('<img src="/' + subDir + '/img/login.png" />');
+				$('a#login-link').html('<img src="' + subDir + 'img/login.png" />');
 				$('#dark').attr('class', 'overlayon');
 				$('#login-form-wrapper').hide();
 				$('#signup-form-wrapper').fadeIn();
@@ -590,15 +590,15 @@ function lookup(inputString) {
 		});
 		$('#login-link').click(function() {
 			if ($('#login-link').attr('class') == 'cancel') {
-				$(this).html('<img src="/' + subDir + '/img/login.png" />');
+				$(this).html('<img src="' + subDir + 'img/login.png" />');
 				$('#login-link').attr('class', 'enabled');
 				$('#dark').attr('class', 'overlayoff');
 				$('#login-form-wrapper').hide();
 			} else {
-				$(this).html('<img src="/' + subDir + '/img/cancel.png" />');
+				$(this).html('<img src="' + subDir + 'img/cancel.png" />');
 				$('a#login-link').attr('class', 'cancel');
 				$('a#signin-link').attr('class', 'enabled');
-				$('a#signin-link').html('<img src="/' + subDir + '/img/signup.png" />');
+				$('a#signin-link').html('<img src="' + subDir + 'img/signup.png" />');
 				$('#dark').attr('class', 'overlayon');
 				$('#signup-form-wrapper').hide();
 				$('#login-form-wrapper').fadeIn();
@@ -606,8 +606,8 @@ function lookup(inputString) {
 		});
 
 		$('#dark').click(function() {
-		    $('#login-link').html('<img src="/' + subDir + '/img/login.png" />');
-		    $('#signin-link').html('<img src="/' + subDir + '/img/signup.png" />');
+		    $('#login-link').html('<img src="' + subDir + 'img/login.png" />');
+		    $('#signin-link').html('<img src="' + subDir + 'img/signup.png" />');
 		    $('#login-link').attr('class', 'enabled');
 		    $('#dark').attr('class', 'overlayoff');
 		    $('#login-form-wrapper').hide();
@@ -620,7 +620,7 @@ function lookup(inputString) {
 			$('#gallery').show();
   			$('#gallery').attr('class', 'overlayon');
 			$.ajax({
-				url: '/' + subDir + '/js/gallery.js',
+				url: subDir + 'js/gallery.js',
 				dataType: 'script',
 				success: function(){
 					
@@ -703,7 +703,7 @@ function lookup(inputString) {
 		});
 		$('#feedback-submit').click(function() {
 	      	$.ajax({
-				url: '/' + subDir + '/manager/feedback.php',
+				url: subDir + 'manager/feedback.php',
 				data: {
 					'name': $('#feedback input.nameentry').val(),
 					'email': $('#feedback input.emailentry').val(),
@@ -743,7 +743,7 @@ function lookup(inputString) {
 	        $.ajax({
 	        	dataType: 'json',
 	            type: 'POST',
-	            url: '/' + subDir + '/manager/register.php',
+	            url: subDir + 'manager/register.php',
 	            data: $('#signupform').serializeArray(),
 	            success: function(data) {
 	            	loadingAnimation(false);
@@ -769,7 +769,7 @@ function lookup(inputString) {
 	        $.ajax({
 	        	dataType: 'json',
 	            type: 'POST',
-	            url: '/' + subDir + '/manager/login.php',
+	            url: subDir + 'manager/login.php',
 	            data: $('#loginform').serializeArray(),
 	            success: function(data) {
 	            	loadingAnimation(false);
@@ -813,7 +813,7 @@ function lookup(inputString) {
 				$.ajax({
 		        	dataType: 'json',
 		            type: 'GET',
-		            url: '/' + subDir + '/manager/myevents.php',
+		            url: subDir + 'manager/myevents.php',
 		            data: { 'id' : $('#hidden-ragID').text()},
 		            success: function(data) {
 		            	var content = "<table id='myevents-table'><tr><th>Event</th><th>Team ID</th><th>Team Leader</th></tr>";
@@ -839,7 +839,7 @@ function lookup(inputString) {
 				$.ajax({
 				dataType: 'json',
 	            type: 'POST',
-	            url: '/' + subDir + '/manager/rlogout.php',
+	            url: subDir + 'manager/rlogout.php',
 	            success: function(data) {
 					location.reload();
 	            }
@@ -852,7 +852,7 @@ function lookup(inputString) {
 	    		$.ajax({
 		        	dataType: 'json',
 		            type: 'POST',
-		            url: '/' + subDir + '/manager/teamcheck.php',
+		            url: subDir + 'manager/teamcheck.php',
 		            data: { 'event': evcode, 'ragamid' : $('#hidden-ragID').text()},
 		            success: function(data) {
 		            	if (data.success == 1)
@@ -892,7 +892,7 @@ function lookup(inputString) {
 	    		/*$.ajax({
 		        	dataType: 'json',
 		            type: 'POST',
-		            url: '/' + subDir + '/manager/teamcheck.php',
+		            url: subDir + 'manager/teamcheck.php',
 		            data: { 'event': evcode, 'ragamid' : $('#hidden-ragID').text()},
 		            success: function(data) {
 		            	if (data.success == 1)
@@ -916,7 +916,7 @@ function lookup(inputString) {
 		            }
 		        });
 		        $('#eventreg-form-wrapper').show();
-	    		$('#multiname').autoSuggest('/'+ subDir + '/manager/queryname.php', {
+	    		$('#multiname').autoSuggest(subDir + 'manager/queryname.php', {
 	    				neverSubmit: false,
 	    				startText: '',
 	    				minChars: 1,
@@ -965,7 +965,7 @@ function lookup(inputString) {
 		        $.ajax({
 		        	dataType: 'json',
 		            type: 'POST',
-		            url: '/' + subDir + '/manager/createteam.php',
+		            url: subDir + 'manager/createteam.php',
 		            data: { 'event': evcode, 'teamleader' : $('#hidden-ragID').text(), 'teammembers' : team},
 		            success: function(data) {
 		            	loadingAnimation(false);

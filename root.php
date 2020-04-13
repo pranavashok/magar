@@ -2,15 +2,18 @@
   $hksubdir = getenv('SUBDIR');
   if ($hksubdir == "")
   {
-	  $subdir = "";
 	  $subDir = "/";
   }
   else
   {
-	  $subdir = $hksubdir;
-	  $subDir = "/".$subdir."/";
+	  $subDir = "/".$hksubdir."/";
   }
 ?>
 <script>
-	var subDir = '<?php echo $subdir; ?>';
+  if ('<?php echo $subdir; ?>' == '') {
+    var subDir = '';
+  }
+  else {
+    var subDir = '<?php echo $subDir; ?>';
+  }
 </script>
