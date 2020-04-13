@@ -85,8 +85,8 @@ function lookup(inputString) {
 		});*/
 		History.Adapter.bind(window, 'statechange', function() { // Note: We are using statechange instead of popstate
 			var State = History.getState(), // Note: We are using History.getState() instead of event.state
-				rootUrl = History.getRootUrl(),
-				relativeUrl = State.url.replace(rootUrl.slice(0, -1) + subDir, '');
+				rootUrl = History.getRootUrl().slice(0, -1), // Get rid of trailing slash
+				relativeUrl = State.url.replace(/\/?$/, '').replace(rootUrl + subDir.replace(/\/?$/, ''), '');
 			//History.log(State.data, State.title, State.url);
 			if (relativeUrl == '') {
 				if ($('#mainmenu-pane').attr('class') == 'moveout') {
