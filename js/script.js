@@ -86,7 +86,7 @@ function lookup(inputString) {
 		History.Adapter.bind(window, 'statechange', function() { // Note: We are using statechange instead of popstate
 			var State = History.getState(), // Note: We are using History.getState() instead of event.state
 				rootUrl = History.getRootUrl().slice(0, -1), // Get rid of trailing slash
-				relativeUrl = State.url.replace(/\/?$/, '').replace(rootUrl + subDir.replace(/\/?$/, ''), '');
+				relativeUrl = State.url.replace(/\/?$/, '').replace(rootUrl + subDir.replace(/\/?$/, ''), '').slice(1);
 			//History.log(State.data, State.title, State.url);
 			if (relativeUrl == '') {
 				if ($('#mainmenu-pane').attr('class') == 'moveout') {
@@ -103,7 +103,7 @@ function lookup(inputString) {
 				if (relativeUrl[relativeUrl.length - 1] == '/') relativeUrl = relativeUrl.substr(0, relativeUrl.length - 1);
 				setCssL('#font-pane');
 				setCssR('#mainmenu-pane');
-				if (relativeUrl.split('/')[1] == 'Events') { //Events section
+				if (relativeUrl.split('/')[0] == 'Events') { //Events section
 					$('.pane').hide();
 					$('#inner-pane-events').show();
 					$('#content-wrapper-events').fadeOut();
@@ -161,8 +161,8 @@ function lookup(inputString) {
 							}
 						});
 						//Load menu
-						title = relativeUrl.split('/')[1];
-						category = relativeUrl.split('/')[1].replace(/_/g, ' ');
+						title = relativeUrl.split('/')[0];
+						category = relativeUrl.split('/')[0].replace(/_/g, ' ');
 						if (n.length > 2)
 							subcategory = relativeUrl.split('/')[2].replace(/_/g, ' ');
 						$.ajax({
@@ -205,7 +205,7 @@ function lookup(inputString) {
 						});
 					}
 				} //Endif events
-				else if (relativeUrl.split('/')[1] == 'Workshops') {
+				else if (relativeUrl.split('/')[0] == 'Workshops') {
 					//Workshops code comes here
 					loadingAnimation(false);
 					$('.pane').hide();
@@ -229,7 +229,7 @@ function lookup(inputString) {
 					}*/
 
 				} //Endif workshops
-				else if (relativeUrl.split('/')[1] == 'Proshows') {
+				else if (relativeUrl.split('/')[0] == 'Proshows') {
 					//Proshows code
 					$('.pane').hide();
 					$('#inner-pane-proshows').show();
@@ -248,7 +248,7 @@ function lookup(inputString) {
 					}
 				} //Endif proshows
 
-				else if (relativeUrl.split('/')[1] == 'Showcase') {
+				else if (relativeUrl.split('/')[0] == 'Showcase') {
 					//Showcase code
 					$('.pane').hide();
 					$('#inner-pane-showcase').show();
@@ -302,7 +302,7 @@ function lookup(inputString) {
 						});
 					}
 				} //Endif showcase
-				else if (relativeUrl.split('/')[1] == 'Sponsors') {
+				else if (relativeUrl.split('/')[0] == 'Sponsors') {
 					//Sponsors code
 					$('.pane').hide();
 					$('#inner-pane-sponsors').show();
