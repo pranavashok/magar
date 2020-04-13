@@ -1,16 +1,21 @@
 <?php 
-  $hksubdir = getenv('SUBDIR');
+  if (getenv('SUBDIR')) {
+    $hksubdir = getenv('SUBDIR');
+  }
+  else {
+    $hksubdir = $_SERVER['SUBDIR'];
+  }
   if ($hksubdir == "")
   {
-	  $subDir = "/";
+    $subDir = "/";
   }
   else
   {
-	  $subDir = "/".$hksubdir."/";
+    $subDir = "/".$hksubdir."/";
   }
 ?>
 <script>
-  if ('<?php echo $subdir; ?>' == '') {
+  if ('<?php echo $subDir; ?>' == '') {
     var subDir = '';
   }
   else {
